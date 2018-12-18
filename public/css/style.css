@@ -12,7 +12,7 @@ span {
 }
 
 body {
-  background: url("../images/bg.webp") no-repeat fixed center;
+  background: url("../images/giphy.gif") no-repeat fixed center;
   background-size: cover;
 }
 
@@ -34,8 +34,13 @@ body {
   background-color: #f7f7f7;
   height: 100%;
   overflow: hidden;
+  position: center;
   margin: 20 px;
   padding: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .06), 0 2px 5px 0 rgba(0, 0, 0, .2);
 }
 
